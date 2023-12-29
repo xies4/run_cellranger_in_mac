@@ -10,6 +10,8 @@ In the "About This Mac" window, look for the "Chip" information. If your Mac has
 Then follow the instruction below to install docker: 
 https://docs.docker.com/desktop/install/mac-install/
 
+
+The following command line checkes the version of the linux system: 
 ```
 docker run -v $FOLDER:$FOLDER bioconductor/bioconductor_docker lsb_release -a
 ```
