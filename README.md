@@ -21,5 +21,7 @@ https://cf.10xgenomics.com/samples/cell-exp/7.0.1/SC3pv3_GEX_Human_PBMC/SC3pv3_G
 
 Replace the folder with your own folder in which has the cellrange folder, refdata folder and raw data folder
 
+```
 FOLDER="/Users/xies4/Desktop/opt"
 docker run -v $FOLDER:$FOLDER bioconductor/bioconductor_docker $FOLDER/cellranger-7.2.0/bin/cellranger
+```
