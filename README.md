@@ -2,6 +2,9 @@
 
 ## Install docker
 
+First open `About This Mac`, choose `Apple menu ` > `About This Mac`. 
+In "Processor" section, you will see whehther you have `Mac with  Intel chip` or ` Mac with Apple silicon`
+
 https://docs.docker.com/desktop/install/mac-install/
 
 ```
