@@ -13,6 +13,8 @@ https://docs.docker.com/desktop/install/mac-install/
 
 The following command line checkes the version of the linux system: 
 ```
+Replace the folder with your own folder in which has the cellrange folder, refdata folder and raw data folder
+FOLDER="/Users/xies4/Desktop/opt"
 docker run -v $FOLDER:$FOLDER bioconductor/bioconductor_docker lsb_release -a
 ```
 
@@ -36,9 +38,7 @@ tar xvf SC3pv3_GEX_Human_PBMC_fastqs.tar
 ## scRNA-seq data
 https://cf.10xgenomics.com/samples/cell-exp/7.0.1/SC3pv3_GEX_Human_PBMC/SC3pv3_GEX_Human_PBMC_fastqs.tar  
 
-Replace the folder with your own folder in which has the cellrange folder, refdata folder and raw data folder
 
 ```
-FOLDER="/Users/xies4/Desktop/opt"
  docker run --workdir $FOLDER -v $FOLDER:$FOLDER bioconductor/bioconductor_docker $FOLDER/cellranger-7.2.0/bin/cellranger count --id Chromium_3p_GEX_Human_PBMC --transcriptome $FOLDER/refdata-gex-GRCh38-2020-A/ --fastqs $FOLDER/Chromium_3p_GEX_Human_PBMC_fastqs/
 ```
