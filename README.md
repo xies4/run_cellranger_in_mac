@@ -3,8 +3,11 @@
 ## Install docker
 
 First open `About This Mac`, choose `Apple menu ` > `About This Mac`. 
-In "Processor" section, you will see whehther you have `Mac with  Intel chip` or ` Mac with Apple silicon`
+In "Processor" section, you will tell whether you have `Mac with  Intel chip` or ` Mac with Apple silicon`. 
 
+In the "About This Mac" window, look for the "Chip" information. If your Mac has an Apple silicon chip, it will specify the name of the chip (e.g., Apple M1). 
+
+Then follow the instruction below to install docker: 
 https://docs.docker.com/desktop/install/mac-install/
 
 ```
