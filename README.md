@@ -20,9 +20,18 @@ docker run -v $FOLDER:$FOLDER bioconductor/bioconductor_docker lsb_release -a
 
 https://www.10xgenomics.com/support/software/cell-ranger/downloads
 
+```
+tar zxvf <file_with_suffix_tar.gz>
+tar xvf <file_with_suffix_tar>
+```
+
 ## Download raw dataset
 
 https://www.10xgenomics.com/resources/datasets/5k-human-pbmcs-3-v3-1-chromium-controller-3-1-standard
+
+```
+tar xvf SC3pv3_GEX_Human_PBMC_fastqs.tar 
+```
 
 ## scRNA-seq data
 https://cf.10xgenomics.com/samples/cell-exp/7.0.1/SC3pv3_GEX_Human_PBMC/SC3pv3_GEX_Human_PBMC_fastqs.tar  
