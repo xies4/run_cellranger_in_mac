@@ -1,5 +1,7 @@
 # Run cellranger in MAC using docker
 
+> Make sure you have enough memory
+
 ## Install docker
 
 First open `About This Mac`, choose `Apple menu ` > `About This Mac`. 
