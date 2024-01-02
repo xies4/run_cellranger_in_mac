@@ -1,6 +1,6 @@
 # Run cellranger in MAC using docker
 
-> Make sure you have enough memory
+> Make sure you have enough RAM and CPU cores: https://www.10xgenomics.com/support/software/cell-ranger/downloads/cr-system-requirements
 
 ## Install docker
 
